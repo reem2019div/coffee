@@ -1,0 +1,18 @@
+
+
+.card{
+    animation: beat 3s;
+}
+
+
+
+@keyframes beat{
+    0%{
+    transform: rotate(-45deg);
+    }
+    100%{
+        transform: rotate(10deg);
+    }
+}
+
+
